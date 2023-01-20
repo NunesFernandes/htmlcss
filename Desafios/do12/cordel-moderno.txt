@@ -65,3 +65,9 @@ Se quiser, faça esse teste
 Dois pontos são dois joelhos
 Seus lábios são aparelhos
 Deixe que Deus interprete.
+
+
+
+--font-padrão: Verdana,' Geneva', Tahoma, sans-serif;
+    --font-corpo:'Courgette', 'cursive';
+    --font-título:'Passion One', 'cursive';
