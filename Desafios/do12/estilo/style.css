@@ -33,7 +33,7 @@ header > p{
     padding-bottom: 50px;
 }
 
-header a, footer a {
+header a,  footer a {
     color: white;
     text-decoration: none;  
     font-weight: bolder;
@@ -85,9 +85,26 @@ section#img02 {
     background-size: cover;
 }
 
+aside {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+aside > p > a {
+    color: black;
+    text-decoration: none;  
+    font-weight: bolder;
+    
+}
+aside > p >a:hover {
+    background-color: rgba(127, 255, 212, 0.726);
+
+}
+
 footer {
     background-color: black;
     text-align: center;
     color: white;
     padding: 10px;
+
 }
