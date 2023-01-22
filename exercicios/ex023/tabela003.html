@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <STyle>
+        
+        body {
+            background-color: rgb(218, 159, 159);
+        }
+
+        table {
+            width: 300px;
+            border-collapse: collapse;
+            padding-left: 50px;
+            margin-left: 20px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center; 
+        }
+    </STyle>
+</head>
+<body>
+    <h1>MESCLAGEM DE CÉLULAS</h1>
+    <table>
+        <caption>Células Mescladas</caption>
+        <tr>
+            <td rowspan="3">A</td>
+            <td colspan="2">B</td>
+        </tr>
+
+        <tr>
+            
+            <td rowspan="2">E</td>
+            <td rowspan="3">F</td>
+        </tr>
+
+        <tr>
+            
+                      
+        </tr>
+
+        <tr>
+            <td colspan="2">J</td>
+            
+            
+        </tr>
+
+    </table>
+    
+</body>
+</html>
