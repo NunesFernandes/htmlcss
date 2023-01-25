@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto e Senha</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>TESTE DE FORMULÁRIO</h1>
+    <form action="ex024/cadastro.php/cadastro.php" method="post" autocomplete="off" target="-blank">
+        <p>
+            <label for="iapelido">APELIDO:</label>
+            <input type="text" name="apelido" id="iapelido" required minlength="15" maxlength="20" size="15" placeholder="Digite seu Nome">
+        </p>
+        <p>
+            <Label for="isenha">SENHA</Label><input type="password" name="senha" id="isenha" required minlength="8" placeholder="Digite aqui">
+        </p>
+        <p><input type="submit" value="Enviar" >
+        <input type="reset" value="Limpar" ></p>
+    </form>
+
+</body>
+</html>
