@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* Configurações de tela */
+* {
+    padding: 0px;
+    margin: 5px;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+main {
+    width: 500px;
+
+    margin: auto;
+}
+
+header {
+    margin: auto;
+    width: 500px;
+}
+nav {
+    display: block;
+    
+}
