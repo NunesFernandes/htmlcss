@@ -3,11 +3,23 @@
 * {
     margin: 10px;
     pad: 10px;
-
 }
-article {
+html {
     font-family:'Courier New', Courier, monospace;
     font-size: 1.5em;
     line-height: 1.5em;
 }
- 
+menu {
+    /* para não aparecer o menu */
+    display: none;    
+
+} 
+
+article {
+    width: 100%;
+}
+
+/* O que vai aparecer no rodapé da impressão */
+article::after {
+    content: 'Esse artigo foi impresso através do site cursoemvideo';
+}
